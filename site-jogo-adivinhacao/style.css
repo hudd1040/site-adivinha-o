@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
+
+
+
+
+
+/* 
+
+font-family: 'DM Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+
+
+body {
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+}
+
+
+/*  --------     Screen 1    -------    */
+
+.box {
+    display: flex;
+    background: #FFFFFF;
+    margin: 20rem auto 24.5rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    flex-direction: column;
+
+
+    width: 42.8rem;
+    height: 27.372rem;
+
+    gap: 4.8rem;
+    border-radius: 6px;
+
+    box-shadow: 0px 2px 4px 0px #0000001A;
+
+}
+
+
+.description {
+    margin-top: 1.6rem;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #34355BCC;
+
+    text-align: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.926rem;
+
+    text-align: center;
+    color: #34355B;
+
+
+}
+
+.buttonTry {
+    padding: 1.6rem;
+    border-radius: 0 4px 4px 0;
+    margin-left: 0;
+    border: none;
+    border: 0;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.083rem;
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #7879F1;
+
+    width: 8.2rem;
+    height: 5.3rem;
+}
+
+
+.numberInput {
+    padding: 1.6rem;
+    border-radius: 4px 0 0 4px;
+    margin-right: 0;
+    border: none;
+    border: 0;
+
+    width: 6rem;
+    height: 5.3rem;
+
+    background: #DCE2E9;
+
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.083rem;
+    color: #34355B;
+
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+
+    margin: 0 auto 0;
+    align-items: center;
+    gap: 0;
+
+}
+
+
+/*  --------     Screen 2    -------    */
+
+.hide {
+    display: none;
+}
+
+.screen2 .box {
+    display: flex;
+    background: #FFFFFF;
+    margin: 20rem auto 24.5rem;
+    padding: 4.8rem 6.4rem 6.4rem;
+    flex-direction: column;
+
+
+    width: 42.8rem;
+    height: 27.372rem;
+
+    gap: 0;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+
+}
+
+.screen2 input {
+    
+        padding: 1.6rem;
+        border-radius: .4rem;
+        margin: 3.3rem auto 6.4rem;
+        border: none;
+        border: 0;
+    
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2.083rem;
+        text-align: center;
+    
+        color: #FFFFFF;
+        background: #7879F1;
+    
+        width: 16.6rem;
+        height: 5.3rem;
+    
+}
+
+.screen2 p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    text-align: center;
+
+    color: #34355B;
+    
+    margin: 0 auto 0;
+
+}
+
+.buttonTry:hover {
+    background-color: #9797dd;
+}
+
+.buttonTry {
+    transition: background .3s;
+    cursor: pointer;
+}
+
+/*
+
+teste
+teste
+teste
+
+*/
